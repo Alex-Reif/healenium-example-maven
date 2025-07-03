@@ -53,11 +53,11 @@ If you want to execute all tests, please use the command: ```mvn clean test```
 
 ### 4.After test execution you should see generated report link in command line logs
 
-![img.png](img.png)
+![img.png](img/img.png)
 
 Report contains only healed locators with old-new values and a button that tells if healing was successful for further algorithm corrections
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 ### 5. Screenshots 
 
@@ -72,7 +72,7 @@ Also you could take a screenshots for your com.epam.healenium.tests like it impl
 If don't want to use Healenium in some methods just use @DisableHealing annotation. 
 > The example of usage you can find here: MainPageWithFindBy.checkLocatorTestButtonDontHealing 
 
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 
 ### 7. Plugin Healenium for Intellij IDE
 
@@ -81,9 +81,9 @@ For updating broken locators you could use Plugin "Healenium" for Intellij IDE (
 With this plugin you can update your locators:
 * on class level
 
-![update_on_class_level](img_6.png)
+![update_on_class_level](img/img_6.png)
 * or on variable level
 
-![update_on_class_level](img_5.png)
+![update_on_class_level](img/img_5.png)
 
-![element_update](img_4.png)
+![element_update](img/img_4.png)
