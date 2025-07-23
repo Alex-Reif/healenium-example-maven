@@ -1,0 +1,1 @@
+Updated locator from By.tagName('test_tag') to By.cssSelector('input#change_element')

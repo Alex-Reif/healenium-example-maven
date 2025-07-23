@@ -1,1 +1,1 @@
-Updated content with replaced locators for src/test/java/com/epam/healenium/tests/SemanticTest.java
+Updated locator from By.partialLinkText('PartialLinkText') to By.cssSelector('a#change_links')
