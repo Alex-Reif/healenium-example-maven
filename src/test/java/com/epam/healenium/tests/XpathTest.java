@@ -1,3 +1,4 @@
+
 package com.epam.healenium.tests;
 
 import com.epam.healenium.FrameworkPage;
@@ -138,9 +139,9 @@ public class XpathTest extends BaseTest {
         FrameworkPage page = pages.get(TEST_ENV);
 
         page.openPage();
-        driver.findElement(By.xpath("//*[@id='descendant_change']/descendant::input"));
+        driver.findElement(By.cssSelector("input#change_below_element"));
         page.clickSubmitButton();
-        driver.findElement(By.xpath("//*[@id='descendant_change']/descendant::input"));
+        driver.findElement(By.cssSelector("input#change_below_element"));
     }
 
     @Test
