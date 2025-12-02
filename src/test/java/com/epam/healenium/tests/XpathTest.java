@@ -1,3 +1,4 @@
+
 package com.epam.healenium.tests;
 
 import com.epam.healenium.FrameworkPage;
@@ -18,9 +19,9 @@ public class XpathTest extends BaseTest {
         FrameworkPage page = pages.get(TEST_ENV);
 
         page.openPage();
-        driver.findElement(By.xpath("//*[@id='change:name']"));
+        driver.findElement(By.xpath("//*[@id='newName']"));
         page.clickSubmitButton();
-        driver.findElement(By.xpath("//*[@id='change:name']"));
+        driver.findElement(By.xpath("//*[@id='newName']"));
     }
 
     @Test
@@ -30,9 +31,9 @@ public class XpathTest extends BaseTest {
         FrameworkPage page = pages.get(TEST_ENV);
 
         page.openPage();
-        driver.findElement(By.xpath("//*[@id='change_className']/following::test_tag"));
+        driver.findElement(By.xpath("//*[@id='change_element']"));
         page.clickSubmitButton();
-        driver.findElement(By.xpath("//*[@id='change_className']/following::test_tag"));
+        driver.findElement(By.xpath("//*[@id='change_element']"));
     }
 
     @Test
